@@ -121,7 +121,7 @@ const generaPreguntasGPT = async (tematicaPrueba) => {
             <Modal.Body>
               <div id="App-frame">
                 <video id="App-video" controls controlsList="nodownload">
-                  <source src={require("./assets/VideoIntro.mov")} type="video/mp4"/>
+                  <source src={require("./assets/VideoIntro.mp4")} type="video/mp4"/>
                 </video>
               </div>
             </Modal.Body>
