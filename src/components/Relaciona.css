@@ -1,0 +1,129 @@
+.Relaciona-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.Relaciona-template {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    min-height: 100vh;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Relaciona-boxNo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+#Relaciona-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+#Relaciona-title {
+    text-align: center;
+    font-size: 3.2vh;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.Relaciona-time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+    font-size: 2.5vh;
+}
+
+#Relaciona-espacioGrupos {
+    display: flex;
+    flex-direction: column; justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+}
+
+#Relaciona-grupos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+}
+
+.Relaciona-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5vh;
+    cursor: pointer;
+    background-color: lightgrey;
+    width: 65%;
+    height: 50%;
+    border-radius: 10px;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    margin: 10px;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    text-align: center;
+}
+
+#Relaciona-espacioElementos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 50vh;
+}
+
+#Relaciona-elemento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.7vh;
+    border-radius: 10px;
+    border: solid;
+    border-width: 2px;
+    padding: 10vh;
+}
+
+@media (max-height: 600px) {
+    .Relaciona-answers {
+        font-size: 16px;
+    }
+
+    #Relaciona-title {
+        font-size: 25px;
+    }
+
+    .Relaciona-time {
+        font-size: 16px;
+    }
+
+    #Relaciona-elemento {
+        font-size: 16px;
+    }
+}
